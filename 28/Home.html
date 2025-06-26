@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<!----------head----------------------------------------------------------------------------------------------->
+<head>
+  <meta charset="UTF-8">
+  <title>My profile</title>
+  <!---スマホやタブレットでの表示最適化-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  
+  <!-- 外部CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- 外部JS -->
+  <script src="script.js" defer></script>
+  <!--外部ライブラリの読み込み -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+ 
+</head>
+<!-------------------------------------------------------------------------------------------------------------->
+
+
+<!-----------body----------------------------------------------------------------------------------------------->
+
+<body>
+ <!-- スクロール距離用の空div -->
+  <div class="scrollDist">
+
+  <main id="hobby_main">
+    <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+      <mask id="m">
+        <g class="cloud1">
+          <rect fill="#fff" width="100%" height="801" y="799" />
+          <image xlink:href="https://assets.codepen.io/721952/cloud1Mask.jpg" width="1200" height="800"/>
+        </g>
+      </mask>
+      <!----アニメーションの重ねる画像下に行くほど上に描画、画像の位置はcssに書いてもうまくいかない、-->
+      <image class="sky"     a href="image\FjnZ25X66.jpg"  width="1200" height="590" />
+      <image class="Neptune" a href="image\Neptune_with_rings_(transparent_background).png" x="-500"y="-750"width="1200" height="1200"/>    
+      <image class="Venus"   a href="image\Venus_globe_-_transparent_background.png" x="100"y="200"width="350" height="350"/>
+      <image class="Falcon"  a href="image\Millennium-Falcon-PNG-Images.png" x="750"y="180"width="350"height="350"/>
+      <image class="cloud2"  xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="800"/>    
+      <image class="mountFg" xlink:href="https://assets.codepen.io/721952/mountFg.png" width="1200" height="800"/>
+      <image class="cloud1"  xlink:href="https://assets.codepen.io/721952/cloud1.png" width="1200" height="800"/>
+      <image class="cloud3"  xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
+      <text fill="#fff" x="350" y="200">ICHINOMIYA</text>
+      <text fill="#fff" x="750" y="300">YUUSEI</text>
+      <g mask="url(#m)">
+        <rect fill="#fff" width="100%" height="100%" />
+          <text class="sentence"x="150" y="150" fill="#162a43">info</text>
+          <text class="sentence"x="150" y="200" fill="#162a43">麻生情報ビジネス専門学校</text>
+          <text class="sentence"x="150" y="250" fill="#162a43">情報工学科</text>
+          <text class="sentence"x="150" y="300" fill="#162a43">一ノ宮　祐生</text>
+         <a xlink:href="Home.html">
+          <text x="750" y="100" fill="#162a43">HOME</text>
+         </a>
+          <a xlink:href="anime.html">
+          <text x="750" y="200" fill="#162a43">Anime</text>
+         </a>
+          <a xlink:href="windows.html">
+          <text x="750" y="300" fill="#162a43">App</text>
+         </a>
+          <a xlink:href="Movie.html">
+          <text x="750" y="400" fill="#162a43">Movie</text>
+         </a>
+          <a xlink:href="game.html">
+          <text x="750" y="500" fill="#162a43">Game</text>
+         </a>
+          <a xlink:href="AI.html">
+          <text x="750" y="600" fill="#162a43">AI</text>
+         </a>
+      </g>
+      
+    </svg>
+  </main>
+
+  </div>
+</body>
+</html>

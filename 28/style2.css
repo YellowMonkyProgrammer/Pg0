@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+font-family: 'WDXL Lubrifont JP N', sans-serif;
+  background: linear-gradient(135deg, #f7f8fc, #e3e9f0);
+  color: #333;
+
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #555;
+}
+img{
+  width: 800px;
+  height: 450px;
+}
+.content{
+  text-align: center;
+}
+.content p{
+    color: #111b29;
+}
+/*nav*/
+.nav1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background-color: #1a1a2e;
+
+  padding-top: 40px;
+}
+
+.nav1 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav1 li {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.nav1 a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav1 a:hover {
+  color: #00f0ff;
+}
+
+.details__summary{
+  font-size: 30px;
+
+}
+.details{
+  text-align: center;
+}
+/*なんかうまくいかん文字アニメーション*/
+.leRotateIn span { animation-name: leRotateIn }
+@keyframes leRotateIn {
+    from {
+        transform: rotate(-180deg);
+        opacity: 0;
+    }
+    to { opacity: 1 }
+}

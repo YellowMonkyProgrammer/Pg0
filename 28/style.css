@@ -1,0 +1,34 @@
+body, html {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #111b29;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 99px;
+  text-align: center;
+}
+div {
+  position: absolute;
+}
+
+main {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+/*アニメーションを行うための空の要素と画面のサイズ*/
+.scrollDist {
+  width: 100%;
+  height: 200%;
+}
+/*画像を斜めにする*/
+.Neptune{
+  transform: rotate(20deg);
+}
+/*文字サイズ*/
+.sentence{
+  font-size: 40px;
+}
